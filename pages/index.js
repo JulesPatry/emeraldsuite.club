@@ -60,7 +60,7 @@ const Home = () => (
       }
       .card {
         padding: 18px 18px 24px;
-        width: 420px;
+        width: 380px;
         text-align: left;
         text-decoration: none;
         color: #434343;
