@@ -3,14 +3,6 @@ import Link from 'next/link';
 
 const Nav = () => (
   <nav>
-    <ul>
-      <li>
-        <Link prefetch href='/'>
-          <a>EmeraldSuite.club</a>
-        </Link>
-      </li>
-    </ul>
-
     <style jsx>{`
       :global(body) {
         margin: 0;
