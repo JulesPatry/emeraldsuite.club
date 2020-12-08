@@ -16,6 +16,8 @@ const Home = () => (
       </h1>
       <p className='description'>
         Here you can find all of <a href='https://www.julespatry.com'>Jules Patry</a>'s creations.
+        <br />
+        All software listed below is created under the Emerald Suite LLC.
       </p>
 
       <div className='row'>
@@ -47,6 +49,7 @@ const Home = () => (
       .title,
       .description {
         text-align: center;
+        line-height: 1.5;
       }
       .row {
         max-width: 880px;
