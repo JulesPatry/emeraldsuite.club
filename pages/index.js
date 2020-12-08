@@ -12,7 +12,7 @@ const Home = () => (
     <div className='hero'>
       <Image src='/emeraldsuite.gif' height={100} width={100} />
       <h1 className='title'>
-        Welcome to the homepage of <span className='emerald-color'>Emerald Suite LLC</span>.
+        Welcome to <span className='emerald-color'>Emerald Suite LLC</span>.
       </h1>
       <p className='description'>
         Here you can find all of <a href='https://www.julespatry.com'>Jules Patry</a>'s creations.
