@@ -15,7 +15,7 @@ const Home = () => (
         Welcome to <span className='emerald-color'>Emerald Suite LLC</span>.
       </h1>
       <p className='description'>
-        Here you can find all of <a href='https://www.julespatry.com'>Jules Patry</a>'s creations.
+        Here you can find all of Jules's creations.
         <br />
         All software listed below is created under the Emerald Suite LLC.
       </p>
@@ -26,7 +26,7 @@ const Home = () => (
             <Image src='/finishprobation-256-256.png' height={80} width={80} />
             <span className='card-content'>
               <h3>FinishProbation &rarr;</h3>
-              <p>The probation management tool.</p>
+              <p>FinishProbation is an app designed to help you complete your probation sentence.</p>
             </span>
           </a>
         </Link>
