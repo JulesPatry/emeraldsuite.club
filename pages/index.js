@@ -23,7 +23,9 @@ const Home = () => (
       <div className='row'>
         <Link href='https://finishprobation.com'>
           <a className='card'>
-            <Image src='/finishprobation-256-256.png' height={80} width={80} />
+            <div className='image-container'>
+              <Image src='/finishprobation-256-256.png' height={80} width={80} />
+            </div>
             <span className='card-content'>
               <h3>FinishProbation &rarr;</h3>
               <p>FinishProbation is an app designed to help you complete your probation sentence.</p>
@@ -84,6 +86,10 @@ const Home = () => (
         padding: 12px 0 0;
         font-size: 13px;
         color: #333;
+      }
+      .image-container {
+        display: flex;
+        align-items: center;
       }
 
       .emerald-color {
